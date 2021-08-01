@@ -13,8 +13,18 @@
       > img {
         max-height: 45px;
       }
+
+      > div {
+        display: flex;
+        gap: 16px;
+
+        button {
+          height: 40px;
+        }
+      }
     }
   }
+
   main {
     max-width: 800px;
     margin: 0 auto;
@@ -85,7 +95,7 @@
           button {
             background: transparent;
             border: 0;
-            color: #7159c1;
+            color: #835afd;
             text-decoration: underline;
             font-size: 14px;
             font-weight: 500;
@@ -93,6 +103,10 @@
           }
         }
       }
+    }
+
+    .question-list {
+      margin-top: 32px;
     }
   }
 }
