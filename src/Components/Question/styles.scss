@@ -8,6 +8,19 @@
     margin-top: 8px;
   }
 
+  &.highlighted {
+    background: #f4f0ff;
+    border: 1px solid #7159c1;
+
+    footer .user-info span {
+      color: #292929de;
+    }
+  }
+
+  &.ansewered {
+    background: #dbdcdd;
+  }
+
   p {
     color: #292929de;
   }
@@ -33,6 +46,11 @@
         color: #737380;
         font-size: 14px;
       }
+    }
+
+    > div {
+      display: flex;
+      gap: 16px;
     }
 
     button {
